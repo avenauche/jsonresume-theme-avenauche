@@ -1,0 +1,22 @@
+{{#resume.basics}}
+    
+        <div class="container summary-container">
+            {{#if summary}}
+                {{> title value="Summary"}}
+                <p class="summary">
+                    {{summary}}
+                </p>
+            {{/if}}
+            {{#if expertise}}
+                <p class="summary">
+                    My expertise is in building<br/>
+                    {{#each expertise}}
+                        <span>{{current @index}}. {{this}} <br/></span>
+                    {{/each}}
+                </p>
+            {{/if}}
+
+        </div>
+    
+
+{{/resume.basics}}

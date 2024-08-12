@@ -1,0 +1,12 @@
+{{#if resume.relevantCoursework.length}}
+<div class="container relevant-coursework-container">
+  {{> title value="Relevant Coursework"}}
+  <section class="item">
+        <ul class="two-column">
+            {{#each resume.relevantCoursework}}
+            <li>{{.}}</li>
+            {{/each}}
+        </ul>
+  </section>
+</div>
+{{/if}}
