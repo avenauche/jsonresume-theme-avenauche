@@ -1,10 +1,10 @@
-# Macchiato+
+# avenache
 
-Macchiato+ is a [JSON Resume](https://jsonresume.org/) theme based on [Theme Boilerplate](https://github.com/jsonresume/jsonresume-theme-boilerplate) and [Macchiato Theme](https://github.com/biosan/jsonresume-theme-macchiato).
+avenache is a [JSON Resume](https://jsonresume.org/) theme based on [Theme Boilerplate](https://github.com/jsonresume/jsonresume-theme-boilerplate) and [Avenauche Theme](https://github.com/avenauche/jsonresume-theme-avenauche).
 
 ## Details
 
-Macchiato+ is my take on the Macchiato theme. Changes range from stylistic changes, bug fixes, and additional sections.
+avenache is my take on the Macchiato theme. Changes range from stylistic changes, bug fixes, and additional sections.
 
 
 ## Usage
@@ -16,12 +16,12 @@ Macchiato+ is my take on the Macchiato theme. Changes range from stylistic chang
 
 2. Download the theme from [npm](https://www.npmjs.com/)
   ```
-  npm install -g jsonresume-theme-macchiato-plus
+  npm install -g jsonresume-theme-avenauche
   ```
 
 3. Use resume cli to build your resume
   ```
-  resume export resume.html --theme macchiato-plus
+  resume export resume.html --theme avenauche
   ```
 
 ## License
