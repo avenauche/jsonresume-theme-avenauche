@@ -84,7 +84,7 @@ h6 {
 
 h1 {
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 40px;
   letter-spacing: 1px;
 }
@@ -104,7 +104,7 @@ h3 {
 }
 
 h3.bold {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h4 {
